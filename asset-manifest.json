@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tedx-nitj/static/css/main.cb92f9fa.css",
+    "main.js": "/tedx-nitj/static/js/main.bf658f9a.js",
+    "static/js/787.fb771931.chunk.js": "/tedx-nitj/static/js/787.fb771931.chunk.js",
+    "static/media/color-sharp2.png": "/tedx-nitj/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/girl.png": "/tedx-nitj/static/media/girl.2a2cd213a4a897115bde.png",
+    "static/media/project-img1.png": "/tedx-nitj/static/media/project-img1.d593db3f12901bc685c2.png",
+    "static/media/tedxnitjLogoTwoLine.png": "/tedx-nitj/static/media/tedxnitjLogoTwoLine.b74132af0ebb5603ade1.png",
+    "static/media/project-img2.png": "/tedx-nitj/static/media/project-img2.2e52097c417f9f1134b0.png",
+    "static/media/project-img3.png": "/tedx-nitj/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/nav-icon3.svg": "/tedx-nitj/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/logo.svg": "/tedx-nitj/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "index.html": "/tedx-nitj/index.html",
+    "static/media/nav-icon1.svg": "/tedx-nitj/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/email.svg": "/tedx-nitj/static/media/email.c6191b999faad4fad0ba014311776e84.svg",
+    "main.cb92f9fa.css.map": "/tedx-nitj/static/css/main.cb92f9fa.css.map",
+    "main.bf658f9a.js.map": "/tedx-nitj/static/js/main.bf658f9a.js.map",
+    "787.fb771931.chunk.js.map": "/tedx-nitj/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb92f9fa.css",
+    "static/js/main.bf658f9a.js"
+  ]
+}
