@@ -123,7 +123,7 @@ nav.navbar a.navbar-brand {
   padding: 20px 20px;
   margin-bottom: 0px;
   font-size: 15px;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .navbar img {
@@ -147,7 +147,7 @@ nav.navbar a.navbar-brand {
 
 .nav-link.navbar-link:hover,
 .nav-link.navbar-link.active {
-  /* border-bottom: 2px solid white; */
+  border-bottom: 2px solid white;
   opacity: 1;
 }
 
@@ -307,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   align-items: end;
   height: 100vh;
   background-color: #000;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
@@ -315,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     margin-top: 0px;
     margin-bottom: 0px;
 
-  background-image: url(../src/components/rever.png) ;
+  background-image: url(../src/assets/img/speakesr_divider.jpg);
   /* background-color: #000; */
   /* border: 2px solid orange; */
 
@@ -338,10 +338,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 @media screen and (max-width:767px) {
   .fixedBack{
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../src/components/rever-mobile.png) ;
   }
 }
 
@@ -491,12 +490,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* position: sticky; */
   /* right: 50px; */
   display: flex;
-  padding: 30px;
-
+  padding: 10px;
 
   align-items: center;
   justify-content: center;
-  background: url(../src/components/Reverberated.png) no-repeat center center/cover;
   /* z-index: 2; */
 }
 
@@ -506,7 +503,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-weight: 900;
   font-size: 45px;
   line-height: 40px;
-  /* padding: 5px; */
   /* identical to box height, or 160% */
 
   /* display: flex;
@@ -623,8 +619,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     font-size: 15vw;
   }
 
-  .theme-last{
-    background: url(../src/assets/img/Reverberated-horizontal.png) no-repeat center center/cover;
+  .theme-last h1{
+    transform: rotate(0deg);
+    font-size: 10vw;
 
     /* text-align: center; */
   }
@@ -672,7 +669,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   color: #E62B1E;
   font-weight: 900;
-  font-size: 30px;
 
 }
 
