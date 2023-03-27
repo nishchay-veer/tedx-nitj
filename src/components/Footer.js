@@ -14,11 +14,10 @@ export const Footer = () => {
               <h5>License Holder</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sanchita Kapur</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+917905928034</a></li>
                 <div className="social-icon">
-          <a href="#"><img src={navIcon1} alt="" /></a>
-          <a href="#"><img src={navIcon2} alt="" /></a>
-          <a href="#"><img src={navIcon3} alt="" /></a>
+          <a href="https://www.linkedin.com/in/sanchitakapur/"><img src={navIcon1} alt="" /></a>
+          <a href='mailto:sanchitak.ic.20@nitj.ac.in'><img src={navIcon2} alt="" /></a>
+          <a href="https://instagram.com/sancheeetos?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
         </div>
               </ul>
             </div>
@@ -36,11 +35,11 @@ export const Footer = () => {
             <div class="col-6 col-md-2 mb-3">
               <h5>Contact Us</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">You can mail us at tedxnitj@nitj.ac.in</a></li>
+                <li class="nav-item mb-2"><a href="mailto: tedxnitj@nitj.ac.in" class="nav-link p-0 text-muted">You can mail us at tedxnitj@nitj.ac.in</a></li>
                 <div className="social-icon">
-          <a href="#"><img src={navIcon1} alt="" /></a>
-          <a href="#"><img src={navIcon2} alt="" /></a>
-          <a href="#"><img src={navIcon3} alt="" /></a>
+          <a href="https://in.linkedin.com/company/tedxnitjalandhar?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src={navIcon1} alt="" /></a>
+          <a href="mailto:tedxnitj@nitj.ac.in"><img src={navIcon2} alt="" /></a>
+          <a href="https://www.instagram.com/tedxnitjalandhar/"><img src={navIcon3} alt="" /></a>
         </div>
               </ul>
             </div>
