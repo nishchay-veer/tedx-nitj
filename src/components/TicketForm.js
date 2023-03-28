@@ -1,3 +1,4 @@
+import { padding } from '@mui/system';
 import React from 'react'
 import { Button, Form } from "react-bootstrap";
 import { Ticket } from 'react-bootstrap-icons';
@@ -26,6 +27,7 @@ function TicketForm() {
                     <h3 style={{alignItems:'center',display:'flex', justifyContent:'center'}} >hey, food's on us ;)</h3>
                     <p style={{alignItems:'center',padding:'10px',display:'flex', justifyContent:'center', border:'1px solid red', borderRadius:'5px'}}>Early bird discout of 10% until 3rd April on both tickets</p> */}
             </Form.Group>
+            <h6 style={{fontFamily: 'Plus Jakarta Sans', textAlign: 'center', borderColor: 'red', border: '2px solid red', padding:'10px'}}>10% early bird discount till 3rd April</h6>
             <a href='https://www.nitj.ac.in/events_registration/tedxnitj/login' target='_blank' className='bookTicketBtn'><Button block style={{padding:'10px', alignItems:'center', margin:'0 auto', display:'flex', width:'100%',justifyContent:'center', backgroundColor: 'red'}} >BOOK</Button></a>
         </Form>
   )
