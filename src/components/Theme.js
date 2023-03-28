@@ -2,8 +2,7 @@ import React from 'react'
 import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import Lottie from 'lottie-react';
-import character from './character.json';
+
 import { Fade } from "react-awesome-reveal";
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
