@@ -6,7 +6,7 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    background: url(../components/bg-sponsors.png) no-repeat center center/cover;
+    background: url(../assets/img/bg-sponsors.png) no-repeat center center/cover;
     justify-content: center;
 
 }

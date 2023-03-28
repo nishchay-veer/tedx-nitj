@@ -315,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     margin-top: 0px;
     margin-bottom: 0px;
 
-  background-image: url(../src/components/rever.png) ;
+  background-image: url(../src/assets/img/rever.png) ;
   /* background-color: #000; */
   /* border: 2px solid orange; */
 
@@ -341,7 +341,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../src/components/rever-mobile.png) ;
+    background-image: url(../src/assets/img/rever-mobile.png) ;
   }
 }
 
@@ -500,7 +500,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
   align-items: center;
   justify-content: center;
-  background: url(../src/components/Reverberated.png) no-repeat center center/cover;
+  background: url(../src/assets/img/Reverberated-180.png) no-repeat center center/cover;
   /* z-index: 2; */
 }
 
@@ -1085,7 +1085,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   
 
   /* background: white; */
-  background: url(../src/components/bg-sponsors.png) no-repeat center center/cover;
+  background: url(../src/assets/img/bg-sponsors.png) no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
