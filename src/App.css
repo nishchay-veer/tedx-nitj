@@ -414,7 +414,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 
 .theme-image{
-  background: url('../src/components/websiteImage.png');
+  background: url('../src/assets/websiteImage.png');
 
 }
 @media screen and (max-width: 767px) {
