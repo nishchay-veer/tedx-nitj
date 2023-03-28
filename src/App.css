@@ -123,7 +123,7 @@ nav.navbar a.navbar-brand {
   padding: 20px 20px;
   margin-bottom: 0px;
   font-size: 15px;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .navbar img {
@@ -147,7 +147,7 @@ nav.navbar a.navbar-brand {
 
 .nav-link.navbar-link:hover,
 .nav-link.navbar-link.active {
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
   opacity: 1;
 }
 
@@ -307,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   align-items: end;
   height: 100vh;
   background-color: #000;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
@@ -315,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     margin-top: 0px;
     margin-bottom: 0px;
 
-  background-image: url(../src/assets/img/speakesr_divider.jpg);
+  background-image: url(../src/components/rever.png) ;
   /* background-color: #000; */
   /* border: 2px solid orange; */
 
@@ -338,9 +338,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 @media screen and (max-width:767px) {
   .fixedBack{
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../src/components/rever-mobile.png) ;
   }
 }
 
@@ -430,7 +431,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* padding: 100px; */
 
 }
-
+.formGroup{
+  /* background: url(../src/components/ticketForm.png) no-repeat center center/cover; */
+  height: 200px;
+  width: auto;
+}
 
 .main {
   /* padding: 0px 10px; */
@@ -490,10 +495,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* position: sticky; */
   /* right: 50px; */
   display: flex;
-  padding: 10px;
+  padding: 30px;
+
 
   align-items: center;
   justify-content: center;
+  background: url(../src/components/Reverberated.png) no-repeat center center/cover;
   /* z-index: 2; */
 }
 
@@ -501,8 +508,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
+  display: none;
+  font-size: 40px;
   line-height: 40px;
+  /* padding: 5px; */
   /* identical to box height, or 160% */
 
   /* display: flex;
@@ -512,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
   color: lightgray;
 
-  transform: rotate(45deg);
+  transform: rotate(0deg);
 }
 .theme-last h1 span{
  
@@ -620,10 +629,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   }
 
   .theme-last h1{
-    transform: rotate(0deg);
-    font-size: 10vw;
+    display: block;
 
     /* text-align: center; */
+  }
+  .theme-last{
+    background: none;
   }
 }
 @media screen and (min-width:1690px) {
@@ -669,6 +680,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   color: #E62B1E;
   font-weight: 900;
+  font-size: 30px;
 
 }
 
@@ -739,7 +751,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   }
 }
 
-
+.bookTicketBtn{
+  text-decoration: none;
+}
 /* .connect__left_staticText{
   position: relative;
   top: 0;

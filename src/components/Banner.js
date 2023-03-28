@@ -25,7 +25,6 @@ export const Banner = () => {
           <Modal.Header style={{backgroundColor:'black'}} closeButton>
             <Modal.Title style={{color:'red', backgroundColor:'black'}}>Book Tickets</Modal.Title>
           </Modal.Header>
-          
             <Modal.Body style={{backgroundColor:'black'}}>
                 <TicketForm />
             </Modal.Body>
