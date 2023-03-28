@@ -1,5 +1,5 @@
 .bdjKfk {
-    height: 370px;
+    height: 400px;
     width: 280px;
     border-radius: 8px;
     perspective: 1000px;
@@ -189,9 +189,10 @@ svg:not(:root).svg-inline--fa {
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 15px;
     display: flex;
+    /* padding: 10px; */
     align-items: center;
     text-align: justify;
 }
@@ -213,7 +214,7 @@ svg:not(:root).svg-inline--fa {
 
 
 .details .kDOQWc {
-    margin-top: 25px;
+    margin-top: 40px;
 }
 .card.team-card .fPthUp .kDOQWc{
     justify-content: center;
