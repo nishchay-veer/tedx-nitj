@@ -3,6 +3,8 @@ import { Button, Form } from "react-bootstrap";
 import { Ticket } from 'react-bootstrap-icons';
 import { TicketDetailedFill } from 'react-bootstrap-icons';
 import { TicketPerforatedFill } from 'react-bootstrap-icons';
+import ticket from "../assets/ticket.png"
+
 function TicketForm() {
   return (
     <Form style={{background:'#151515'}} className='buyTicketForm'>
@@ -10,8 +12,11 @@ function TicketForm() {
                 <Form.Label style={{ fontSize:'25px' }}>Ticket Fare</Form.Label>
                 <Form.Label style={{margin:' 0 10px'}}><TicketDetailedFill/> NITJ: Rs 549</Form.Label>
                 <Form.Label style={{margin:' 0 10px'}}><TicketDetailedFill/> NON - NITJ: Rs 799 + GST</Form.Label>
-            </Form.Group>
-            <Form.Group className='formGroup' style={{padding:'10px'}}>
+            </Form.Group> 
+            <Form.Group className='formGroup' style={{padding:'10px', display:'flex'}}>
+                <div className="ticket-left" style={{width:'35%'}} ><img src={ticket} alt="" /></div>
+                <div className="ticket-right" style={{width:'65%', padding:'10px', display:'flex',justifyContent:'center', alignItems:'center', textAlign:'justify'}}><p>Get a chance to meet and interact with world-class speakers. Take our <span style={{colour:'red', color:'gray'}} >exclusive merchandise and goodie bags home. And hey, food's on us ;)</span></p>
+                </div>
                 {/* <Form.Label style={{ fontSize:'25px' }}>Perks Included</Form.Label>
                 <ul>
                     <li>Meet & greet with world-class speakers</li> 
