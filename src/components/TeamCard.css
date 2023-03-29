@@ -1,6 +1,6 @@
 .bdjKfk {
-    height: 400px;
-    width: 280px;
+    height: 420px;
+    width: 300px;
     border-radius: 8px;
     perspective: 1000px;
     margin: 10px;
@@ -214,7 +214,7 @@ svg:not(:root).svg-inline--fa {
 
 
 .details .kDOQWc {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .card.team-card .fPthUp .kDOQWc{
     justify-content: center;

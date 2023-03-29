@@ -36,9 +36,10 @@ export const Speakers = () => {
               position={speaker.title}
               source={speaker.imageURL}
               description={speaker.description}
-              twitter={speaker.twitter}
-              insta = {speaker.instagram}
-              linkedIn = {speaker.linkedin}
+              twitter={speaker.twitter && `https://www.twitter.com/${speaker.twitter}`}
+              insta = {speaker.instagram && `https://www.instagram.com/${speaker.instagram}`}
+              linkedIn = {speaker.linkedin && `https://www.linkedin.com/${speaker.linkedin}` }
+              youTube = {speaker.youtube && `https://youtube.com/@${speaker.youtube}` }
             />
           ))}
 
