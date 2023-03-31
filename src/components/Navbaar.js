@@ -20,21 +20,25 @@ export const Navbaar = () => {
 
     return () => window.removeEventListener("scroll", onScroll);
   }, [])
+  useEffect(()=> {
+    document.title = activeLink ? `${activeLink} | TEDxNITJalandhar` : "TEDxNITJalandhar"
+
+  },[activeLink])
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   }
   return (
     <nav class={scrolled ? "navbar fixed-top scrolled" : "navbar fixed-top"}>
       <div class="container-fluid">
-        <Link to="/"><a class="navbar-brand"><img className="header_image" src={logo} alt="Logo" /></a></Link>
+        <Link to="/"><a class="navbar-brand" onClick={() => onUpdateActiveLink(null)}><img className="header_image" src={logo} alt="Logo" /></a></Link>
         <div className="nav-options">
 
           <Nav className="ms-auto">
-            <NavLink to="conferences" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('conferences')}>Conferences</NavLink>
-            <NavLink to="sponsors" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</NavLink>
-            <NavLink to="gallery" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('gallery')}>Gallery</NavLink>
-            <NavLink to="team" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink>
-            <NavLink to="getinvolve" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</NavLink>
+            <NavLink to="conferences" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Conferences')}>Conferences</NavLink>
+            <NavLink to="sponsors" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Sponsors')}>Sponsors</NavLink>
+            <NavLink to="gallery" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Gallery')}>Gallery</NavLink>
+            <NavLink to="team" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Team')}>Our Team</NavLink>
+            <NavLink to="getinvolve" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Get Involve')}>Get Involved</NavLink>
           </Nav>
         </div>
         <div className="nav-tog">
@@ -50,19 +54,19 @@ export const Navbaar = () => {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="conferences" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('conferences')}>Conferences</NavLink></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="conferences" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Conferences')}>Conferences</NavLink></button>
                 </li>
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="sponsors" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</NavLink></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="sponsors" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Sponsors')}>Sponsors</NavLink></button>
                 </li>
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="gallery" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('gallery')}>Gallery</NavLink></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="gallery" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Gallery')}>Gallery</NavLink></button>
                 </li>
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="team" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="team" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Team')}>Our Team</NavLink></button>
                 </li>
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="getinvolve" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</NavLink></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="getinvolve" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Get Involve')}>Get Involved</NavLink></button>
                 </li>
               </ul>
 
