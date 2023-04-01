@@ -30,7 +30,7 @@ export const Navbaar = () => {
   return (
     <nav class={scrolled ? "navbar fixed-top scrolled" : "navbar fixed-top"}>
       <div class="container-fluid">
-        <Link to="/"><a class="navbar-brand" onClick={() => onUpdateActiveLink(null3)}><img className="header_image" src={logo} alt="Logo" /></a></Link>
+        <Link to="/"><a class="navbar-brand" onClick={() => onUpdateActiveLink(null)}><img className="header_image" src={logo} alt="Logo" /></a></Link>
         <div className="nav-options">
 
           <Nav className="ms-auto">
