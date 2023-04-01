@@ -6,7 +6,7 @@ import ted4 from "../assets/img/getInvolved.jpg"
 import ted5 from "../assets/img/network-human-silhouettes-artificial-intelligence-healthcare-1068x601.jpg"
 import ted6 from "../assets/img/TEDSpeakeronstage.png"
 import ted7 from "../assets/img/tedx-1200x800.jpg"
-import ted8 from "../assets/img/sharing-ideas.jpg"
+import ted8 from "../assets/img/sharing-ideas.png"
 import ted9 from "../assets/img/TEDx-Lights.jpg"
 import ted10 from "../assets/img/tedxliverpool.jpg"
 
