@@ -34,7 +34,7 @@ export const Navbaar = () => {
         <div className="nav-options">
 
           <Nav className="ms-auto">
-            <NavLink to="conferences" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Conferences')}>Conferences</NavLink>
+            <NavLink to="conferences" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Events')}>Events</NavLink>
             <NavLink to="sponsors" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Sponsors')}>Sponsors</NavLink>
             <NavLink to="gallery" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Gallery')}>Gallery</NavLink>
             <NavLink to="team" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('Team')}>Our Team</NavLink>
@@ -54,7 +54,7 @@ export const Navbaar = () => {
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="conferences" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Conferences')}>Conferences</NavLink></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="conferences" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Events')}>Events</NavLink></button>
                 </li>
                 <li class="nav-item">
                   <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="sponsors" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('Sponsors')}>Sponsors</NavLink></button>
