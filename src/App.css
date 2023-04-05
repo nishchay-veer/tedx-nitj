@@ -412,7 +412,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 
-
 .theme-image{
   background: url('../src/assets/websiteImage.png');
 
@@ -1145,3 +1144,54 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: 'Plus Jakarta Sans';
   /* margin-bottom: 30px; */
 }
+h4.bookButton{
+  font-family: "Plus Jakarta Sans";
+  text-align: center;
+  border: 2px solid lightgray;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  background-color: darkgray;
+}
+h4.bookButton a{
+  text-decoration: none;
+  color: black;
+}
+h4#book5 a{
+  color: white;
+}
+h4#book{
+  background-color: lightgray;
+}
+h4#book5{
+  background-color: #000;
+}
+h4.bookButton#book:hover{
+  background-color: #151515;
+  
+}
+h4.bookButton#book:hover a{
+  color: white;
+  
+}
+h4.bookButton#book:hover{
+  background-color: #151515;
+  
+}
+h4.bookButton#book10:hover a{
+  color: white;
+  
+}
+h4.bookButton#book10:hover{
+  background-color: #151515;
+  
+}
+h4.bookButton#book5:hover a{
+  color: white;
+  
+}
+h4.bookButton#book5:hover{
+  background-color: #151515;
+  
+}
+
