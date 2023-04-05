@@ -27,8 +27,12 @@ function TicketForm() {
                     <h3 style={{alignItems:'center',display:'flex', justifyContent:'center'}} >hey, food's on us ;)</h3>
                     <p style={{alignItems:'center',padding:'10px',display:'flex', justifyContent:'center', border:'1px solid red', borderRadius:'5px'}}>Early bird discout of 10% until 3rd April on both tickets</p> */}
             </Form.Group>
-            <h6 style={{fontFamily: 'Plus Jakarta Sans', textAlign: 'center', borderColor: 'red', border: '2px solid red', padding:'10px'}}>10% early bird discount till 10th April</h6>
-            <a href='https://www.nitj.ac.in/events_registration/tedxnitj/login' target='_blank' className='bookTicketBtn'><Button block style={{padding:'10px', alignItems:'center', margin:'0 auto', display:'flex', width:'100%',justifyContent:'center', backgroundColor: 'red'}} >BOOK</Button></a>
+            
+            <a href='https://www.nitj.ac.in/events_registration/tedxnitj/login' target='_blank' className='bookTicketBtn'><Button block style={{padding:'10px', alignItems:'center', margin:'6px auto', width:'100%',justifyContent:'center', backgroundColor: 'red'}} >BOOK AS SINGLE ATTENDEE<br/><h6 style={{fontFamily: 'Plus Jakarta Sans', textAlign: 'center', borderColor: 'red', border: '2px solid red', fontSize:'12px'}}>10% early bird discount till 10th April</h6></Button></a>
+            <div style={{display: 'flex'}}>
+            <h4 style={{fontFamily: 'Plus Jakarta Sans', textAlign: 'center', borderColor: 'red', border: '2px solid red', padding:'10px', fontSize:'16px', backgroundColor:'red', color:'white', width:'50%'}}><a href='https://bit.ly/tedx-group-5' target='_blank' style={{textDecoration:'none', color:'white'} }><b>BOOK IN A GROUP OF 5:</b><br/>10% discount</a></h4>
+            <h4 style={{fontFamily: 'Plus Jakarta Sans', textAlign: 'center', border: '2px solid red', padding:'10px', fontSize:'16px', color:'black', backgroundColor:'white', width:'50%'}}><a href='https://bit.ly/tedx-group-10' target='_blank' style={{textDecoration:'none', color:'black'} }><b>BOOK IN A GROUP OF 10:</b><br/>20% discount</a></h4>
+            </div>
         </Form>
   )
 }
