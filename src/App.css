@@ -1147,7 +1147,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 h4.bookButton{
   font-family: "Plus Jakarta Sans";
   text-align: center;
-  border: 2px solid lightgray;
   padding: 10px;
   font-size: 14px;
   color: black;
@@ -1161,13 +1160,19 @@ h4#book5 a{
   color: white;
 }
 h4#book{
-  background-color: lightgray;
+  background-color: #E62B1E;
+
+}
+h4#book a{
+ color: white;
+
 }
 h4#book5{
   background-color: #000;
 }
 h4.bookButton#book:hover{
   background-color: #151515;
+  border-color: lightgray;
   
 }
 h4.bookButton#book:hover a{
@@ -1176,6 +1181,7 @@ h4.bookButton#book:hover a{
 }
 h4.bookButton#book:hover{
   background-color: #151515;
+  border-bottom: 1px solid lightgray;
   
 }
 h4.bookButton#book10:hover a{
@@ -1184,6 +1190,7 @@ h4.bookButton#book10:hover a{
 }
 h4.bookButton#book10:hover{
   background-color: #151515;
+  border-bottom: 1px solid lightgray;
   
 }
 h4.bookButton#book5:hover a{
@@ -1192,6 +1199,7 @@ h4.bookButton#book5:hover a{
 }
 h4.bookButton#book5:hover{
   background-color: #151515;
+  border-bottom: 1px solid lightgray;
   
 }
 
