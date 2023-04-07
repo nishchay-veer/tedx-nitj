@@ -5,7 +5,7 @@ export const SpeakerCard = ({ name, position, source, description, twitter, inst
         <div class="styles__CardContainer-sc-iwkek3-0 bdjKfk">
             <div class="card">
                 <div class="styles__Common-sc-iwkek3-1 fPthUp">
-                    <div class="styles__ImageContainer-sc-iwkek3-3 cyGFWV speak" style={{ backgroundImage: `url(${source}),  linear-gradient(transparent, transparent, rgb(35, 35, 35))` }}></div>
+                    <div class="styles__ImageContainer-sc-iwkek3-3 speak" style={{ backgroundImage: `url(${source}),  linear-gradient(transparent, transparent, rgb(35, 35, 35))` }}></div>
                     <p class="naam">{name}</p>
                     <p class="Para2-sc-648wid-0 dpxoDA content">
                         {position}
