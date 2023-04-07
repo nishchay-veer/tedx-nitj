@@ -65,6 +65,9 @@
     background-color: rgb(35, 35, 35);
     /* background-image: linear-gradient(transparent, transparent, rgb(35, 35, 35)); */
 }
+.speak{
+    background-size: cover;
+}
 
 .fPthUp .name {
     margin-top: 18px;
